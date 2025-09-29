@@ -1,0 +1,49 @@
+/* Estilos personalizados para FastConnection */
+.hero {
+  background: linear-gradient(180deg, #00163D 100%);
+  color: white;
+  padding: 5rem 0;
+}
+.feature-card {
+  border: 0;
+  box-shadow: 0 6px 18px rgba(5,10,25,0.08);
+}
+.pricing {
+  background: linear-gradient(180deg, #00163D 100%); /* azul oscuro con transparencia */
+  padding: 4rem 0;
+}
+
+.pricing h2, 
+.pricing p,
+.pricing .card {
+  color: black; /* texto legible sobre fondo oscuro */
+}
+
+footer {
+  background: #0b1220;
+  color: #c9d1e3;
+  padding: 2rem 0;
+}
+.btn-primary-soft {
+  background: rgba(13,110,253,0.12);
+  color: #04285f;
+  border: 1px solid rgba(13,110,253,0.18);
+}
+/* Estilos personalizados para FastConnection */
+#fondo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999; /* siempre detrás de todo */
+  pointer-events: none; /* deja pasar clicks, scroll y botones */
+}
+
+/* Clase personalizada para el header del modal */
+/* Solo modales con id que empieza con "modal" */
+.modal-header {
+  background-color: #0d3b66;
+  color: white;
+}
+
